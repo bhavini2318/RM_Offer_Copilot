@@ -1,0 +1,26 @@
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Generated data (regenerate from scripts; keep small samples only)
+data/synthetic/*.csv
+data/synthetic/*.parquet
+!data/synthetic/sample_*.csv
